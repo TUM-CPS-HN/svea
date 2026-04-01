@@ -164,3 +164,8 @@ If the upstream repository is modified, you could fetch the corresponding modifi
 ```bash
 git fetch upstream
 ```
+Then merge the changes to your local repository and push it to your remote repository:
+```bash
+git merge upstream/main
+git push origin main
+```
